@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Exercícios</title>
+    <link rel="stylesheet" href="Lista1.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1> Lista de Exercícios</h1>
+        <p class="subtitle">Selecione um exercício para executar:</p>
+
+        <div class="controls">
+            <button class="control-btn" id="themeToggle">🌓 Alternar Tema</button>
+        </div>
+
+        <div id="status" class="status" style="display: none;">
+            Pronto para executar exercícios!
+        </div>
+
+        <div class="buttons-container">
+            <button class="btn" onclick="executarExercicio(1)">
+                <span class="btn-number">Ex1</span>
+                <span class="btn-text">Soma de Números</span>
+            </button>
+
+            <button class="btn" onclick="executarExercicio(2)">
+                <span class="btn-number">Ex2</span>
+                <span class="btn-text">Nome Completo</span>
+            </button>
+
+            <button class="btn" onclick="executarExercicio(3)">
+                <span class="btn-number">Ex3</span>
+                <span class="btn-text">Conversor Real/Dólar</span>
+            </button>
+
+            <button class="btn" onclick="executarExercicio(4)">
+                <span class="btn-number">Ex4</span>
+                <span class="btn-text">Antecessor e Sucessor</span>
+            </button>
+
+            <button class="btn" onclick="executarExercicio(5)">
+                <span class="btn-number">Ex5</span>
+                <span class="btn-text">Cálculo de Área</span>
+            </button>
+
+            <button class="btn" onclick="executarExercicio(6)">
+                <span class="btn-number">Ex6</span>
+                <span class="btn-text">Consumo de Combustível</span>
+            </button>
+
+            <button class="btn" onclick="executarExercicio(7)">
+                <span class="btn-number">Ex7</span>
+                <span class="btn-text">Média de Notas</span>
+            </button>
+
+            <button class="btn" onclick="executarExercicio(8)">
+                <span class="btn-number">Ex8</span>
+                <span class="btn-text">Conversor de Temperatura</span>
+            </button>
+        </div>
+
+        <div class="info">
+            <p>💡 Clique em qualquer botão para executar o exercício correspondente</p>
+        </div>
+    </div>
+
+    <script src="Lista1.js"></script>
+</body>
+
+</html>v
